@@ -7,7 +7,7 @@ span {
 }
 
 body {
-    background-color: rgb(235, 216, 192)
+    background-color: rgb(241, 197, 144)
 }
 
 button:hover {
@@ -18,8 +18,26 @@ button:active {
     background-color: rgb(235, 216, 192)
 }
 
-.my-button {
+button {
     width: 100px;
     height: 50px;
-    box-sizing: border-box;
+    padding: 5px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-item-1 {
+    width: 100px;
+    margin: 10px;
+    border: 3px solid rgb(235, 216, 192);
+    background-color: rgb(235, 216, 192);
+}
+
+.flexbox-item-2 {
+    width: 100px;
+    margin: 10px;
+    border: 3px solid rgb(235, 216, 192);
+    background-color: rgb(235, 216, 192);
 }
