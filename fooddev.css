@@ -7,7 +7,8 @@ span {
 }
 
 body {
-    background-color: rgb(241, 197, 144)
+    background-color: #FAF9F6;
+    border: 10px solid magenta;
 }
 
 button:hover {
@@ -24,20 +25,20 @@ button {
     padding: 5px;
 }
 
-.flexbox-container {
+#container {
     display: flex;
+    background-color: antiquewhite;
+    height: 100px;
+    width: 50%;
+    border: 3px solid #FAF9F6;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: flex-end;
+
 }
 
-.flexbox-item-1 {
-    width: 100px;
-    margin: 10px;
-    border: 3px solid rgb(235, 216, 192);
-    background-color: rgb(235, 216, 192);
-}
+#Container div {
+    width: 50%;
+    height: 100px;
 
-.flexbox-item-2 {
-    width: 100px;
-    margin: 10px;
-    border: 3px solid rgb(235, 216, 192);
-    background-color: rgb(235, 216, 192);
 }
